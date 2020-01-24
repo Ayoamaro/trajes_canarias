@@ -1,18 +1,18 @@
 var imagenesPersonas = [
-  { alt: 'fv', src: 'img/fv-male.png' },
-  { alt: 'fv', src: 'img/fv-female.png' },
-  { alt: 'gc', src: 'img/gc-male.png' },
-  { alt: 'gc', src: 'img/gc-female.png' },
-  { alt: 'go', src: 'img/go-male.png' },
-  { alt: 'go', src: 'img/go-female.png' },
-  { alt: 'hi', src: 'img/hi-male.png' },
-  { alt: 'hi', src: 'img/hi-female.png' },
-  { alt: 'lz', src: 'img/lz-male.png' },
-  { alt: 'lz', src: 'img/lz-female.png' },
-  { alt: 'pa', src: 'img/pa-male.png' },
-  { alt: 'pa', src: 'img/pa-female.png' },
-  { alt: 'tf', src: 'img/tf-male.png' },
-  { alt: 'tf', src: 'img/tf-female.png' }
+  { alt: 'fv', src: '../img/fv-male.png' },
+  { alt: 'fv', src: '../img/fv-female.png' },
+  { alt: 'gc', src: '../img/gc-male.png' },
+  { alt: 'gc', src: '../img/gc-female.png' },
+  { alt: 'go', src: '../img/go-male.png' },
+  { alt: 'go', src: '../img/go-female.png' },
+  { alt: 'hi', src: '../img/hi-male.png' },
+  { alt: 'hi', src: '../img/hi-female.png' },
+  { alt: 'lz', src: '../img/lz-male.png' },
+  { alt: 'lz', src: '../img/lz-female.png' },
+  { alt: 'pa', src: '../img/pa-male.png' },
+  { alt: 'pa', src: '../img/pa-female.png' },
+  { alt: 'tf', src: '../img/tf-male.png' },
+  { alt: 'tf', src: '../img/tf-female.png' }
 ]
 
 var aciertos = 0;
@@ -99,7 +99,7 @@ $('#islas').find('img').droppable({
       ventanaFinal.attr('id', 'ventanaModal')
       ventanaFinal.attr('title', 'Puntuación final')
       ventanaFinal.appendTo('body')
-      var reiniciarPartida = $('<a id="reinicio" class="ui-button ui-widget ui-corner-all" href="index.html" style="padding: 8px; margin-bottom: 5px;">Reiniciar partida</a>')
+      var reiniciarPartida = $('<a id="reinicio" class="ui-button ui-widget ui-corner-all" href="../index.html" style="padding: 8px; margin-bottom: 5px;">Reiniciar partida</a>')
       reiniciarPartida.appendTo(ventanaFinal)
       $( function () {
         $("#ventanaModal").dialog();
