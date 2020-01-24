@@ -1,0 +1,43 @@
+#contenedor {
+  position: absolute;
+  width: 1200px;
+  height: 550px;
+  left: 50%;
+  margin-left: -600px;
+  margin-top: 20px;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+
+#cabecera {
+  text-align: center;
+}
+
+#islas {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#islas > img {
+  width: 172px;
+  height: 168px;
+}
+
+#trajes {
+  display: flex;
+  justify-content: space-between;
+}
+
+#trajes > img {
+  width: 100px;
+}
+
+#grupoBotones > button {
+  padding: 5px;
+}
+
+#grupoBotones {
+  text-align: center;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
