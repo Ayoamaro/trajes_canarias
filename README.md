@@ -36,10 +36,10 @@ la entrada y salida (jQueryUI).
 Autor de las imágenes: [Proyecto TSP (IECI-EFC)](https://bit.ly/36smvp2)
 
 ## Ejecución
-1. Descargar el [Proyecto](https://bit.ly/3c0t57E) y descomprimir
-2. Abrir con [Visual Studio Code](https://code.visualstudio.com) o algún editor de código
-3. Descargar el [Live Server](https://bit.ly/3elOzNx)
-3. Abrir el **index.html** y ejecutarlo con la opción "Go Live"
+1. Descargar el [Proyecto](https://bit.ly/3c0t57E) y descomprimir.
+2. Abrir con [Visual Studio Code](https://code.visualstudio.com) o algún editor de código.
+3. Descargar el [Live Server](https://bit.ly/3elOzNx).
+3. Abrir el **index.html** y ejecutarlo con la opción "Go Live".
 
 ## Hecho con
 * [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript) - **55,70%**
