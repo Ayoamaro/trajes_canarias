@@ -1,4 +1,4 @@
-# U09-P01: Comics y personajes de Marvel
+# U08-T01: Trajes típicos de Canarias
 
 ![imagen_previa.PNG](https://github.com/Ayoamaro/trajes_canarias.github.io/blob/master/img/imagen_previa.PNG?raw=true)
 
